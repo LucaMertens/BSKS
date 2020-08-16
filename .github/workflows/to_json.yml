@@ -28,4 +28,5 @@ jobs:
          python-version: 3.8 #install the python needed
      - name: execute python script # Run the convert-script
        run: |
-         python Quiz/questions_to_json.py.py
+         ls $GITHUB_WORKSPACE
+         python $GITHUB_WORKSPACE/Quiz/questions_to_json.py.py
