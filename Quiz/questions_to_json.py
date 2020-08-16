@@ -21,10 +21,13 @@ def question_to_json(origin_path, dest_path):
         print(err)
     except SyntaxError as err:
         print("Quiz-Entry malformed: ", err)
+    else:
+        print(f"✅ {Path(dest_path).stem} succesfully converted.")
 
 
 def questions_to_json(origin_root, dest_root):
-    for filename in glob.iglob(origin_root + '**/**/*.txt', recursive=True):
+    # Ignore files starting with a !.
+    for filename in glob.iglob(origin_root + '**/**/[!!]*.txt', recursive=True):
         relative_path = os.path.relpath(os.path.dirname(filename), origin_root)
         raw_file_name = Path(filename).stem
         dest_filename = os.path.join(
