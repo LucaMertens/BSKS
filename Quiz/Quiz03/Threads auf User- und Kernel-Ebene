@@ -1,0 +1,6 @@
+Welche Vorteile hat Thread-Scheduling auf der Kernel-Ebene gegenüber der User-Ebene?
+
+	
+[ ] Jedem Kernel-Thread kann eine angepasste Scheduling-Strategie zugeordnet werden.
+[x] Blockierende Systemaufrufe stoppen alle Threads des Prozesses und verhindern effizientes Scheduling auf User-Ebene.
+[x] Der Scheduler auf der Kernel-Ebene kann die Threads aller Prozesse berücksichtigen.
