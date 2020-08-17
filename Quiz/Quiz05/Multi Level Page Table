@@ -1,0 +1,6 @@
+Welche Aussage ist korrekt?
+
+	
+[ ] Bei einer Multi-Level Page Table kann auf den Root Page Table Pointer verzichtet werden.
+[ ] Der insgesamt verwendete Speicher einer Multi-Level Page Table ist kleiner als der einer Single-Level Page Table mit gleicher Anzahl an Einträgen.
+[x] Der im Hauptspeicher benötigte Anteil einer Page Table kann durch den Einsatz mehrerer Levels signifikant reduziert werden.
