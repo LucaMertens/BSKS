@@ -1,0 +1,6 @@
+Welche Vorteile hat Gang Scheduling gegenüber dem individuellem Scheduling zusammengehöriger Threads?.
+
+	
+[x] Geringerer Scheduling-Aufwand
+[x] Geringere Anzahl an Context Switches
+[ ] Einfacheres Load Balancing
