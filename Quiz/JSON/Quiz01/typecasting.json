@@ -1,0 +1,1 @@
+{"question": "Implizites Typecasting:\n\nint i = 2;\nfloat j = 2.1;\nint k = i + j; \n\nWelchen Wert hat k?", "wrongAnswers": ["2", "4.1", "5"], "correctAnswers": ["4"]}

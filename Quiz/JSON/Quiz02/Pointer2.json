@@ -1,0 +1,1 @@
+{"question": "Was gibt das zweite printf auf der Konsole aus?\n\n    #include<stdio.h>\n\n    int main() {\n    char *ptr = \"Test\";\n\n    // Ausgabe auf der Konsole: \"T\"\n    printf(\"%c\", *ptr);\n\n    // Ausgabe auf der Konsole?\n    printf(\"%c\", *&*ptr);\n    }", "wrongAnswers": ["Compiler-Fehler", "Test", "Adresse des char-Arrays"], "correctAnswers": ["T"]}

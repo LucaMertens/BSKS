@@ -1,0 +1,1 @@
+{"question": "Welche Elemente enth\u00e4lt der Superblock? Markieren sie zwei Antworten.", "wrongAnswers": ["Zeiger auf Inode des Root-Verzeichnisses", "Block-Gr\u00f6\u00dfe (Block size)"], "correctAnswers": ["Gr\u00f6\u00dfe der Inode-Liste", "Gr\u00f6\u00dfe des Dateisystems"]}

@@ -1,0 +1,1 @@
+{"question": "Ein valides (kompilierbar) C Programm, das \"Hello World\" in die Konsole ausgibt, muss...", "wrongAnswers": ["mindestens zwei Semikola enthalten.", "nicht zwingend ein Semikolon enthalten."], "correctAnswers": ["mindestens zwei Zeilen lang sein.", "mindestens ein Semikolon enthalten."]}

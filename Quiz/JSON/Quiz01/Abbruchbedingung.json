@@ -1,0 +1,1 @@
+{"question": "    #include <stdio.h>\n\n    int main()\n    {\n        int i;\n        for (i = 10; i; i--)\n            printf(\".\");\n        return 0;\n    }\nWie viele Punkte gibt das oben gezeigte Programm aus?", "wrongAnswers": ["Das Programm terminiert nicht. Es gibt so lange Punkte aus, bis es manuell abgebrochen wird.", "11", "Keine."], "correctAnswers": ["10"]}

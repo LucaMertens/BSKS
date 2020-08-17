@@ -1,0 +1,1 @@
+{"question": "Wo sind Dateinamen gespeichert?", "wrongAnswers": ["Der Dateiname ergibt sich direkt aus dem im Inode gespeicherten Pfad", "Metainformation im Inode zu dieser Datei"], "correctAnswers": ["Der Dateiname steht in der Verzeichnisdatei"]}
