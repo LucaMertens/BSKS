@@ -1,4 +1,6 @@
 # BSKS
+<img src="https://discordapp.com/api/guilds/745019290591297557/embed.png?style=shield"/>
+
 
 ## Allgemeines Schema für Quiz-Fragen:
 
@@ -29,6 +31,4 @@ Bei mir funktionieren die Karten allerdings nur in der App (AnkiDroid), auf dem 
 
 ## Discord Discussion
 
-Es gibt jezt einen Discord Channel für Diskussionen.
-
-Siehe hier: [https://discord.gg/4XNrMpr](https://discord.gg/4XNrMpr)
+<a href="https://discord.gg/4XNrMpr"><img src="https://discordapp.com/api/guilds/745019290591297557/embed.png?style=banner2"/></a>
