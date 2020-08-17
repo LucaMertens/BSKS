@@ -1,14 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Convert questions to JSON
+name: Convert questions to JSON and create Flashcards.
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,13 +20,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-     - name: checkout repo content
-       uses: actions/checkout@v2 # checkout the repository content to github runner.
-     - name: setup python
-       uses: actions/setup-python@v2
-       with:
-         python-version: 3.8 #install the python needed
-     - name: execute python script # Run the convert-script
-       run: |
-         ls $GITHUB_WORKSPACE
-         python $GITHUB_WORKSPACE/Quiz/questions_to_json.py
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+      - name: execute python script # Run the convert-script
+        run: |
+          ls $GITHUB_WORKSPACE
+          python $GITHUB_WORKSPACE/Quiz/questions_to_json.py
+          python $GITHUB_WORKSPACE/Quiz/anki/json_to_Anki.py

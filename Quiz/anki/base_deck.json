@@ -27,7 +27,7 @@
         "initialFactor": 2500,
         "ints": [1, 4, 7],
         "order": 0,
-        "perDay": 5,
+        "perDay": 20,
         "separate": true
       },
       "replayq": true,
