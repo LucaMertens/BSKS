@@ -1,0 +1,6 @@
+Wo wird die Übersetzung einer virtuellen Adresse in eine physikalische Adresse durchgeführt?
+
+	
+[ ] Die Übersetzung erfolgt im Translation Lookaside Buffer (TLB).
+[ ] Der Betriebssystemkernel kümmert sich (unsichtbar für Prozesse) um die Übersetzung.
+[x] Die Memory Management Unit (MMU) der CPU führt die Übersetzung aus.
