@@ -1,0 +1,10 @@
+Markieren sie die zwei richtigen Aussagen: rdt3.0...
+
+
+[X] ... verwendet Checksummen für die Fehlererkennung.
+
+[X] ... nummeriert Pakete (Sequence numbers), um Duplikate zu erkennen.
+
+[ ] ... nutzt ACKs / NAKs, um Pakete zu bestätigen / abzulehnen.
+
+[ ] ... kann einzelne Bitfehler durch Analyse der Checksumme beheben.

@@ -1,0 +1,9 @@
+Eine virtuelle Adresse endet mit dem 8-Bit-Offset 10011011. Was lässt sich über die physikalische Adresse sagen?
+
+
+[X] Die physikalische Adresse endet mit dem gleichen Offset.
+
+[ ] Die physikalische Adresse ist in dem Frame mit Adresse 10011011 zu finden.
+
+[ ] Die physikalische Adresse enthält eine Bit-Sequenz, die in der Seitentabelle an Adresse 10011011 zu finden ist.
+

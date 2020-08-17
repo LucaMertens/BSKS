@@ -1,0 +1,8 @@
+Eine Maskerade (Masquerade) ist ein Angriffmuster, bei dem...
+
+
+[ ] ... ein Angreifer Nachrichten abfängt und in veränderter Form an den Empfänger sendet.
+
+[ ] ... die Verfügbarkeit des Systems durch gezielte Überlastung lahmgelegt wird.
+
+[X] ... ein Angreifer die Identität des Angegriffenen übernimmt.

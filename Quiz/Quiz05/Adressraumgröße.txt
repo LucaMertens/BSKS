@@ -1,0 +1,8 @@
+Ist der virtuelle Adressraum eines Prozesses an die Größe des physikalischen Adressraum gebunden?
+
+
+[ ] Die Größe eines virtuellen Adressraums entspricht immer der Größe des physikalischen Adressraums.
+
+[ ] Der virtuelle Adressraum kann auch kleiner als der physikalische Adressraum sein, ist nach oben aber durch die Größe des physikalischen Adressraums limitiert.
+
+[X] Nein, der virtuelle Adressraum kann größer oder kleiner als der physikalische Adressraum sein.

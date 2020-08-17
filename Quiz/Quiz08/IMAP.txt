@@ -1,0 +1,10 @@
+Markieren Sie zwei richtige Aussagen bezuglich IMAP.
+
+
+[X] Durch IMAP zeigen alle E-Mail-Clients stets den gleichen, aktuellen Datenbestand an.
+
+[ ] IMAP erlaubt nicht, Mails serverseitig in Ordnern benutzerdefiniert zu organisieren.
+
+[X] Für jede ungelesene Nachricht muss eine Verbindung zum Server hergestellt werden.
+
+[ ] IMAP ist über die Dauer einer Benutzersession hinausgehend zustandslos (stateless).

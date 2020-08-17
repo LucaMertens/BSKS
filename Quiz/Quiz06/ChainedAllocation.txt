@@ -1,0 +1,8 @@
+Was ist ein Nachteil der Chained Allocation?
+
+
+[ ] Höhere externe Fragmentierung als bei der Contiguous File Allocation
+
+[ ] Höhere interne Fragmentierung als bei der Contiguous File Allocation
+
+[X] Höhere Zugriffszeiten als bei der Contiguous File Allocation

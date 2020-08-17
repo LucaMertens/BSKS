@@ -1,0 +1,10 @@
+Was passiert bei einem Page Fault? Markieren Sie zwei Antworten.
+
+
+[X] Es wird ein freier Seitenrahmen (frame) im Hauptspeicher gesucht. Ist keiner verfügbar, so wird eine andere Seite ausgelagert.
+
+[ ] Nachdem die Seite in den Hauptspeicher geladen wurde, wird der Eintrag der Prozesstabelle geändert und das Modified-Bit auf 'Modified' gesetzt.
+
+[ ] Der auslösende Prozess wird von dem Status Running auf Ready gesetzt und hinten in die Ready-Queue eingereiht.
+
+[X] Die angeforderte Seite wird vom Sekundärspeicher in den Hauptspeicher kopiert.
