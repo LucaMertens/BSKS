@@ -1,0 +1,7 @@
+Wenn beim Round-Robin Scheduling die Quantum Time so vergrößert wird, dass keine präemtpive Unterbrechung auftritt, ist die Strategie äquivalent zu:
+
+	
+[x] First-Come, First-Served (FCFS)
+[ ] Shortest-Job-First (SJF)
+[ ] Shortest-Remaining-Job-First (SRJF)
+
