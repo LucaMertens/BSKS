@@ -1,0 +1,8 @@
+Was sind die zwei Hauptfunktionen eines Betriebssystems nach Tanenbaum?
+
+
+[ ] Bereitstellung einer Benutzerschnittstelle
+[X] Generelles Ressourcenmanagement
+[X] Hardwareabstrahierende, einheitliche Schnittstelle für Software
+[ ] Speicherverwaltung
+[ ] Multitasking
