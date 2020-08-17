@@ -1,0 +1,7 @@
+Traps...
+
+	
+[x] ... werden immer aktiv vom zu unterbrechendem Prozess herbeigeführt.
+[ ] ... terminieren den laufenden Prozess.
+[ ] ... führen zu der Ausführung einer entsprechenden Handler-Routine.
+[x] ... sind beabsichtigt.
