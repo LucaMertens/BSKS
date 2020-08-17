@@ -1,0 +1,7 @@
+Welche Aussagen sind korrekt?
+
+	
+[ ] Der Prozesskontrolblock enthält den nächsten auszuführenden Befehl des Prozesses.
+[x] Der Prozesskontrollblock enthält Informationen über die geöffneten Dateien eines Prozesses.
+[x] Ein Prozesskontrollblock enthält wichtige Informationen des Prozesses wie Befehlszähler, Zustand und Stackpointer.
+[x] Die Prozesstabelle enthält pro Prozess genau einen Eintrag, der Prozesskontrollblock (Process Control Block) genannt wird.
