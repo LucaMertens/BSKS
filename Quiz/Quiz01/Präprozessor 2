@@ -1,0 +1,18 @@
+Welche Ausgabe erzeugt folgendes Programm?
+
+#include <stdio.h>
+
+#define MAX 1000
+
+int main()
+{
+     int MAX = 100;
+     printf("%d", MAX);
+     return 0;
+}
+ 
+
+	
+[x] Compiler-Fehler
+[ ] 100
+[ ] 1000
