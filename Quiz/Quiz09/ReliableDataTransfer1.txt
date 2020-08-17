@@ -1,0 +1,10 @@
+Markieren sie die zwei richtigen Aussagen: rdt1.0...
+
+
+[X] ... überprüft nicht, ob Pakete mehrfach versendet wurden.
+
+[ ] ... verwendet Checksummen für die Fehlererkennung.
+
+[X] ... geht davon aus, dass das unterliegende Übertragungsmedium zuverlässig ist (reliable channel).
+
+[ ] ... nutzt ACKs / NAKs, um Pakete zu bestätigen / abzulehnen.

@@ -1,0 +1,181 @@
+{
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "1ed94758-dfcc-11ea-9365-c0b88363f3e8",
+  "deck_config_uuid": "a357956a-dfa4-11ea-bc65-c0b88363f3e8",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoAgain": 0,
+      "autoAlert": 45,
+      "autoAnswer": 0,
+      "autoplay": true,
+      "crowdanki_uuid": "a357956a-dfa4-11ea-bc65-c0b88363f3e8",
+      "dyn": false,
+      "lapse": {
+        "delays": [10],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0.0
+      },
+      "maxTaken": 140,
+      "name": "Default",
+      "new": {
+        "bury": true,
+        "delays": [1, 10],
+        "initialFactor": 2500,
+        "ints": [1, 4, 7],
+        "order": 0,
+        "perDay": 20,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "hardFactor": 1.2,
+        "ivlFct": 1.0,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 20
+      },
+      "timer": 1
+    }
+  ],
+  "desc": "",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [],
+  "name": "BSKS Quiz",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "5de78847-dfcb-11ea-b453-c0b88363f3e8",
+      "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.small {\n font-size: 15px;\n}\n\ntable, td, th {\n border-collapse: collapse;\n padding: 5px;\n}\n\n.correct {\n\tbackground-color: lime;\n}\n\n.nightMode .correct {\n\tbackground-color: #009900;\n}\n\n.wrong {\n\tbackground-color: OrangeRed;\n}\n\n.hidden {\n  /*\n  This block is from Glutanimate's Cloze Overlapper card template.\n  The Cloze Overlapper card template is licensed under the CC BY-SA 4.0\n  license (https://creativecommons.org/licenses/by-sa/4.0/).\n  */\n  /* guarantees a consistent width across front and back */\n  font-weight: bold;\n  display: block;\n  line-height:0;\n  height: 0;\n  overflow: hidden;\n  visibility: hidden;\n}",
+      "flds": [
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Title",
+          "ord": 0,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Question",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "QType (0=kprim,1=mc,2=sc)",
+          "ord": 2,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Q_1",
+          "ord": 3,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Q_2",
+          "ord": 4,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Q_3",
+          "ord": 5,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Q_4",
+          "ord": 6,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Q_5",
+          "ord": 7,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Answers",
+          "ord": 8,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Sources",
+          "ord": 9,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Extra 1",
+          "ord": 10,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "name": "AllInOne (kprim, mc, sc)",
+      "req": [[0, "any", [0, 1, 2, 3, 4, 5, 6, 7, 8]]],
+      "sortf": 1,
+      "tags": [],
+      "tmpls": [
+        {
+          "afmt": "<script>\n    // Loading Persistence\n    // https://github.com/SimonLammer/anki-persistence\n    // v0.5.2 - https://github.com/SimonLammer/anki-persistence/blob/62463a7f63e79ce12f7a622a8ca0beb4c1c5d556/script.js\n    if (void 0 === window.Persistence) { var _persistenceKey = \"github.com/SimonLammer/anki-persistence/\", _defaultKey = \"_default\"; if (window.Persistence_sessionStorage = function () { var e = !1; try { \"object\" == typeof window.sessionStorage && (e = !0, this.clear = function () { for (var e = 0; e < sessionStorage.length; e++) { var t = sessionStorage.key(e); 0 == t.indexOf(_persistenceKey) && (sessionStorage.removeItem(t), e--) } }, this.setItem = function (e, t) { void 0 == t && (t = e, e = _defaultKey), sessionStorage.setItem(_persistenceKey + e, JSON.stringify(t)) }, this.getItem = function (e) { return void 0 == e && (e = _defaultKey), JSON.parse(sessionStorage.getItem(_persistenceKey + e)) }, this.removeItem = function (e) { void 0 == e && (e = _defaultKey), sessionStorage.removeItem(_persistenceKey + e) }) } catch (e) { } this.isAvailable = function () { return e } }, window.Persistence_windowKey = function (e) { var t = window[e], i = !1; \"object\" == typeof t && (i = !0, this.clear = function () { t[_persistenceKey] = {} }, this.setItem = function (e, i) { void 0 == i && (i = e, e = _defaultKey), t[_persistenceKey][e] = i }, this.getItem = function (e) { return void 0 == e && (e = _defaultKey), t[_persistenceKey][e] || null }, this.removeItem = function (e) { void 0 == e && (e = _defaultKey), delete t[_persistenceKey][e] }, void 0 == t[_persistenceKey] && this.clear()), this.isAvailable = function () { return i } }, window.Persistence = new Persistence_sessionStorage, Persistence.isAvailable() || (window.Persistence = new Persistence_windowKey(\"py\")), !Persistence.isAvailable()) { var titleStartIndex = window.location.toString().indexOf(\"title\"), titleContentIndex = window.location.toString().indexOf(\"main\", titleStartIndex); titleStartIndex > 0 && titleContentIndex > 0 && titleContentIndex - titleStartIndex < 10 && (window.Persistence = new Persistence_windowKey(\"qt\")) } }\n</script>\n\n<script>\n    function onLoad() {\n        // Check if Persistence is Available\n        if (Persistence.isAvailable) {\n            // Parsing solutions\n            solutions = Persistence.getItem('Q_solutions').split(\" \");\n            for (i = 0; i < solutions.length; i++) {\n                solutions[i] = Number(solutions[i]);\n            }\n            var answers = Persistence.getItem('user_answers').split(\" \");\n            var type = document.getElementById('CardType').innerHTML;\n\n            var qtable = document.getElementById('qtable');\n            qtable.innerHTML = Persistence.getItem('qtable');\n\n            var output = document.getElementById(\"output\");\n\n            var atable = qtable.cloneNode(true);\n            atable.setAttribute(\"id\", \"atable\");\n            output.innerHTML = \"<hr id='answer' />\" + atable.outerHTML;\n\n            document.getElementById('qtable').innerHTML = qtable.innerHTML;\n            var qrows = qtable.getElementsByTagName('tbody')[0].getElementsByTagName(\"tr\");\n            \n            for (i = 0; i < answers.length; i++) {\n                //Set the radio buttons in the qtable.\n                if (type == 0) {\n                    if (answers[i] === \"1\") {\n                        qrows[i + 1].getElementsByTagName(\"td\")[0].getElementsByTagName(\"input\")[0].checked = true;\n                    } else if (answers[i] === \"0\") {\n                        qrows[i + 1].getElementsByTagName(\"td\")[1].getElementsByTagName(\"input\")[0].checked = true;\n                    }\n                } else {\n                    qrows[i].getElementsByTagName(\"td\")[0].getElementsByTagName(\"input\")[0].checked = (answers[i]==1) ? true : false;\n                }\n                //Colorize the qtable.\n                if (solutions[i] && answers[i] === \"1\") {\n                    qrows[(type != 0) ? i : i + 1].setAttribute(\"class\", \"correct\");\n                } else if (!solutions[i] && answers[i] === \"0\") {\n                    qrows[(type != 0) ? i : i + 1].setAttribute(\"class\", \"correct\");\n                } else {\n                    qrows[(type != 0) ? i : i + 1].setAttribute(\"class\", \"wrong\");\n                }\n            }\n            \n            var arows = document.getElementById(\"atable\").getElementsByTagName(\"tbody\")[0].getElementsByTagName(\"tr\");\n            for (i = 0; i < solutions.length; i++) {\n                //Rename the radio buttons of the atable to avoid interference with those in the qtable.\n                if (type==0) arows[i + 1].getElementsByTagName(\"td\")[1].getElementsByTagName(\"input\")[0].setAttribute(\"name\", \"ans_\" + ((type != 2) ? String(i + 1) : 'A') + \"_solution\");\n                             arows[(type!=0) ? i : i+1].getElementsByTagName(\"td\")[0].getElementsByTagName(\"input\")[0].setAttribute(\"name\", \"ans_\" + ((type != 2) ? String(i + 1) : 'A') + \"_solution\");\n                //Set the radio buttons in the atable.\n                if (type==0) arows[i + 1].getElementsByTagName(\"td\")[solutions[i] ? 0 : 1].getElementsByTagName(\"input\")[0].checked = true;\n                else arows[i].getElementsByTagName(\"td\")[0].getElementsByTagName(\"input\")[0].checked = solutions[i] ? true : false;\n            }\n            Persistence.clear();\n        }\n    }\n\n    if (document.readyState === \"complete\") {\n        setTimeout(onLoad, 1);\n    } else {\n        document.addEventListener(\"DOMContentLoaded\", function () {\n            setTimeout(onLoad, 1);\n        }, false);\n    }\n</script>\n\n{{#Title}}<h3 id=\"myH1\">{{Title}}</h3>{{/Title}}\n{{#Question}}<p>{{Question}}</p>{{/Question}}\n<table id=\"qtable\"></table>\n<p id=\"output\"></p>\n<div class=\"hidden\" id=\"MC_solutions\">solutions_here</div>\n\n<div class=\"hidden\" id=\"user_answers\">user_answers_here</div>\n<div class=\"hidden\" id=\"CardType\">{{QType (0=kprim,1=mc,2=sc)}}</div>\n{{#Sources}}<p class=\"small\" id=\"sources\"><b>Sources:</b><br />{{Sources}}</p>{{/Sources}}\n{{#Extra 1}}<p class=\"small\" id=\"extra1\"><b>Extra 1:</b><br />{{Extra 1}}</p>{{/Extra 1}}",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "AllInOne (kprim, mc, sc)",
+          "ord": 0,
+          "qfmt": "<script>\n    // Loading Persistence\n    // https://github.com/SimonLammer/anki-persistence\n    // v0.5.2 - https://github.com/SimonLammer/anki-persistence/blob/62463a7f63e79ce12f7a622a8ca0beb4c1c5d556/script.js\n    if (void 0 === window.Persistence) { var _persistenceKey = \"github.com/SimonLammer/anki-persistence/\", _defaultKey = \"_default\"; if (window.Persistence_sessionStorage = function () { var e = !1; try { \"object\" == typeof window.sessionStorage && (e = !0, this.clear = function () { for (var e = 0; e < sessionStorage.length; e++) { var t = sessionStorage.key(e); 0 == t.indexOf(_persistenceKey) && (sessionStorage.removeItem(t), e--) } }, this.setItem = function (e, t) { void 0 == t && (t = e, e = _defaultKey), sessionStorage.setItem(_persistenceKey + e, JSON.stringify(t)) }, this.getItem = function (e) { return void 0 == e && (e = _defaultKey), JSON.parse(sessionStorage.getItem(_persistenceKey + e)) }, this.removeItem = function (e) { void 0 == e && (e = _defaultKey), sessionStorage.removeItem(_persistenceKey + e) }) } catch (e) { } this.isAvailable = function () { return e } }, window.Persistence_windowKey = function (e) { var t = window[e], i = !1; \"object\" == typeof t && (i = !0, this.clear = function () { t[_persistenceKey] = {} }, this.setItem = function (e, i) { void 0 == i && (i = e, e = _defaultKey), t[_persistenceKey][e] = i }, this.getItem = function (e) { return void 0 == e && (e = _defaultKey), t[_persistenceKey][e] || null }, this.removeItem = function (e) { void 0 == e && (e = _defaultKey), delete t[_persistenceKey][e] }, void 0 == t[_persistenceKey] && this.clear()), this.isAvailable = function () { return i } }, window.Persistence = new Persistence_sessionStorage, Persistence.isAvailable() || (window.Persistence = new Persistence_windowKey(\"py\")), !Persistence.isAvailable()) { var titleStartIndex = window.location.toString().indexOf(\"title\"), titleContentIndex = window.location.toString().indexOf(\"main\", titleStartIndex); titleStartIndex > 0 && titleContentIndex > 0 && titleContentIndex - titleStartIndex < 10 && (window.Persistence = new Persistence_windowKey(\"qt\")) } }\n</script>\n\n<script>\n\n    // Generate the table depending on the type.\n\n    function generateTable() {\n        var type = document.getElementById(\"Card_Type\").innerHTML;\n        var table = document.createElement(\"table\");\n        var tbody = document.createElement(\"tbody\");\n        for (var i = 0; i < 5; i++) {\n            if (type == 0 && i == 0) {\n                tbody.innerHTML = tbody.innerHTML + '<tr><th>yes</th><th>no</th><th></th></tr>';\n            }\n\n            if (document.getElementById('Q_' + (i + 1)).innerHTML != '') {\n                var html = [];\n\n                html.push('<tr>');\n                for (var j = 0; j < ((type == 0) ? 2 : 1); j++) {\n                    html.push(\n                        '<td onInput=\"onCheck()\" style=\"text-align: center\"><input name=\"ans_' + ((type != 2) ? (i + 1) : 'A') + '\" type=\"' +\n                        ((type == 1) ? 'checkbox' : 'radio') + '\" value=\"' + ((j == 0) ? 1 : 0) + '\"></td>');\n                }\n                html.push('<td>' + document.getElementById('Q_' + (i + 1)).innerHTML + '</td>')\n                html.push('</tr>');\n                tbody.innerHTML = tbody.innerHTML + html.join(\"\");\n            }\n\n        }\n\n        table.appendChild(tbody);\n        document.getElementById('qtable').innerHTML = table.innerHTML;\n        onShuffle();\n    }\n\n    function shuffle(array) {\n        var currentIndex = array.length, temporaryValue, randomIndex;\n\n        // While there remain elements to shuffle...\n        while (0 !== currentIndex) {\n\n            // Pick a remaining element...\n            randomIndex = Math.floor(Math.random() * currentIndex);\n            currentIndex -= 1;\n\n            // And swap it with the current element.\n            temporaryValue = array[currentIndex];\n            array[currentIndex] = array[randomIndex];\n            array[randomIndex] = temporaryValue;\n        }\n\n        return array;\n    }\n\n    function onShuffle() {\n        var solutions = document.getElementById(\"Q_solutions\").innerHTML;\n        solutions = solutions.split(\" \");\n        for (i = 0; i < solutions.length; i++) {\n            solutions[i] = Number(solutions[i]);\n        }\n\n        var output = document.getElementById(\"output\");\n\n        var qrows = document.getElementById(\"qtable\").getElementsByTagName(\"tr\");\n\n        var qanda = new Array();\n\n        var type = document.getElementById(\"Card_Type\").innerHTML;\n\n        for (i = 0; i < ((type == 0) ? qrows.length - 1 : qrows.length); i++) {\n            qanda[i] = new Object();\n            qanda[i].question = qrows[(type == 0) ? i + 1 : i].getElementsByTagName(\"td\")[(type == 0) ? 2 : 1].innerHTML;\n            qanda[i].answer = solutions[i];\n        }\n\n        qanda = shuffle(qanda);\n\n        var mc_solutions = new String();\n\n        for (i = 0; i < ((type == 0) ? qrows.length - 1 : qrows.length); i++) {\n            qrows[(type == 0) ? i + 1 : i].getElementsByTagName(\"td\")[(type == 0) ? 2 : 1].innerHTML = qanda[i].question;\n            solutions[i] = qanda[i].answer;\n            mc_solutions += qanda[i].answer + \" \";\n        }\n        mc_solutions = mc_solutions.substring(0, mc_solutions.lastIndexOf(\" \"));\n        document.getElementById(\"Q_solutions\").innerHTML = mc_solutions;\n\n        document.getElementById(\"qtable\").HTML = qrows;\n        onCheck();\n    }\n\n    function onCheck() {\n        // Generate user_answers\n        var type = document.getElementById(\"Card_Type\").innerHTML;\n        var qrows = document.getElementById(\"qtable\").getElementsByTagName('tbody')[0].getElementsByTagName(\"tr\");\n        document.getElementById(\"user_answers\").innerHTML = \"\";\n        for (i = 0; i < ((type == 0) ? qrows.length - 1 : qrows.length); i++) {\n            var j;\n            if (type == 0) {\n                j = i + 1;\n            } else j = i;\n            if (qrows[j].getElementsByTagName(\"td\")[0].getElementsByTagName(\"input\")[0].checked) {\n\n                document.getElementById(\"user_answers\").innerHTML += \"1 \";\n            } else if (type != 0 && !qrows[j].getElementsByTagName(\"td\")[(type == 0) ? 1 : 0].getElementsByTagName(\"input\")[0].checked) {\n                document.getElementById(\"user_answers\").innerHTML += \"0 \";\n            } else if (type == 0 && qrows[j].getElementsByTagName(\"td\")[(type == 0) ? 1 : 0].getElementsByTagName(\"input\")[0].checked) {\n                document.getElementById(\"user_answers\").innerHTML += \"0 \";\n            } else {\n                document.getElementById(\"user_answers\").innerHTML += \"- \";\n            }\n        }\n\n        document.getElementById(\"user_answers\").innerHTML = document.getElementById(\"user_answers\").innerHTML.trim();\n\n        // Send Stuff to Persistence\n        if (Persistence.isAvailable()) {\n            Persistence.clear();\n            Persistence.setItem('user_answers', document.getElementById(\"user_answers\").innerHTML);\n            Persistence.setItem('Q_solutions', document.getElementById(\"Q_solutions\").innerHTML);\n            Persistence.setItem('qtable', document.getElementById(\"qtable\").innerHTML);\n        }\n    }\n\n    /*\n        The following block is from Glutanimate's Cloze Overlapper card template.\n        The Cloze Overlapper card template is licensed under the CC BY-SA 4.0\n        license (https://creativecommons.org/licenses/by-sa/4.0/).\n    */\n    if (document.readyState === \"complete\") {\n        setTimeout(generateTable(), 1);\n\n    } else {\n        document.addEventListener(\"DOMContentLoaded\", function () {\n            setTimeout(generateTable(), 1);\n        }, false);\n    }\n</script>\n\n{{#Title}}<h3 id=\"myH1\">{{Title}}</h3>{{/Title}}\n{{#Question}}<p>{{Question}}</p>{{/Question}}\n\n<table style=\"boder: 1px solid black\" id=\"qtable\"></table>\n\n<div class=\"hidden\" id=\"Q_solutions\">{{Answers}}</div>\n<div class=\"hidden\" id=\"user_answers\">- - - -</div>\n<div class=\"hidden\" id=\"Card_Type\">{{QType (0=kprim,1=mc,2=sc)}}</div>\n\n<div class=\"hidden\" id=\"Q_1\">{{Q_1}}</div>\n<div class=\"hidden\" id=\"Q_2\">{{Q_2}}</div>\n<div class=\"hidden\" id=\"Q_3\">{{Q_3}}</div>\n<div class=\"hidden\" id=\"Q_4\">{{Q_4}}</div>\n<div class=\"hidden\" id=\"Q_5\">{{Q_5}}</div>"
+        }
+      ],
+      "type": 0,
+      "vers": []
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,1 @@
+{"question": "Welche Aufgaben \u00fcbernimmt das Basis-Dateisystem (Basic file system)? Markieren sie zwei Antworten.", "wrongAnswers": ["Planung der Reihenfolge (Scheduling) von Schreibvorg\u00e4ngen auf Festplatte"], "correctAnswers": ["Reduzierung unn\u00f6tiger Schreibvorg\u00e4nge durch Zwischenpufferung im Hauptspeicher", "Organisation der Bl\u00f6cke (blocks)"]}

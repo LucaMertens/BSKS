@@ -1,0 +1,10 @@
+Zusammenfassend regelt Long-Term-Scheduling...
+
+
+[ ] ... welche Prozesse im Hauptspeicher liegen bzw. auf einen Sekundärspeicher ausgelagert sind.
+
+	
+[ ] ... welcher Prozess als nächster ausgeführt wird.
+
+	
+[X] ... welche Prozesse zeitgleich existieren.

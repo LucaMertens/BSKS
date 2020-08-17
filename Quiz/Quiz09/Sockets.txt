@@ -1,0 +1,10 @@
+Markieren sie die zwei richtigen Aussagen zu Sockets.
+
+
+[ ] Besteht eine laufende Socket-Verbindung über TCP auf dem serverseitig gebundenen Port X, so kann sich kein weiterer Client mit Port X verbinden.
+
+[X] Zwei Programme auf einem Host können nicht den selben Port binden.
+
+[X] Der Port des Server-Programms muss dem Client-Programm bei Verbindungsaufbau bekannt sein.
+
+[ ] Stream Sockets verwenden üblicherweise UDP.

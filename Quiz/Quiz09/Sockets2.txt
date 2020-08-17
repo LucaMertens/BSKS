@@ -1,0 +1,10 @@
+Markieren sie die zwei richtigen Aussagen zu Sockets.
+
+
+[ ] Sockets verbinden sich stets über Ports. Sie verwenden dafür TCP oder UDP.
+
+[X] Sockets eignen sich für Ende-zu-Ende-Verbindung zwischen Anwendungen.
+
+[ ] Kommunizieren Mailserver und Client über SMTP (Standardport 25), so wird hierfür üblicherweise server- und clientseitig Port 25 belegt.
+
+[X] Datagram Sockets verwenden üblicherweise UDP.

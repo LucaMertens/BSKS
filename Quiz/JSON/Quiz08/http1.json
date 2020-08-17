@@ -1,0 +1,1 @@
+{"question": "Markieren Sie zwei richtige Aussagen bezuglich HTTP.", "wrongAnswers": ["Der Standard-Port f\u00fcr HTML-Anfragen ist 8000.", "Bei einer syntaktisch ung\u00fcltigen Anfrage sieht HTTP den Fehlercode 505 vor."], "correctAnswers": ["HTTP ist zustandslos (stateless).", "HTTP/1.1 unterst\u00fctzt unterschiedliche Request-Typen wie GET, PUT und DELETE."]}

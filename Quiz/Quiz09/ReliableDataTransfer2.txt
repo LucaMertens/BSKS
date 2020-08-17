@@ -1,10 +1,10 @@
-Markieren sie die zwei richtigen Aussagen: rdt1.0...
+Markieren sie die zwei richtigen Aussagen: rdt2.1...
 
 
-[X] ... überprüft nicht, ob Pakete mehrfach versendet wurden.
+[X] ... nutzt ACKs / NAKs zur Fehlerbehebung.
 
-[ ] ... verwendet Checksummen für die Fehlererkennung.
+[ ] ... kann einzelne Bitfehler durch Analyse der Checksumme beheben.
 
-[X] ... geht davon aus, dass das unterliegende Übertragungsmedium zuverlässig ist (reliable channel).
+[ ] ... nummeriert Pakete (1 bit sequence number), um Paketverluste (Packet loss) zu erkennen.
 
-[ ] ... nutzt ACKs / NAKs, um Pakete zu bestätigen / abzulehnen.
+[X] ... verwendet Checksummen für die Fehlererkennung.
