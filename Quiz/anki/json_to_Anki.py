@@ -71,6 +71,6 @@ def convert_and_write_all(anki_path, json_path):
     write_deck(base, anki_path)
 
 
-json_path = os.path.join(os.getcwd(), "JSON")
+json_path = os.path.join(os.getcwd(), "Quiz", "JSON")
 anki_path = os.path.join(os.getcwd(), "Quiz", "anki")
 convert_and_write_all(anki_path, json_path)

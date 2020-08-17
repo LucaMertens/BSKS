@@ -37,5 +37,5 @@ def questions_to_json(origin_root, dest_root):
 
 
 origin = os.path.join(os.getcwd(), "Quiz")
-dest = os.path.join(os.getcwd(), "JSON")
+dest = os.path.join(os.getcwd(), "Quiz", "JSON")
 questions_to_json(origin, dest)

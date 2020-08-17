@@ -1,1 +1,0 @@
-{"question": "Konzeptionell l\u00e4sst sich der vom Betriebssystem zugewiesene Speicherbereich einer Programmausf\u00fchrung in vier Bereiche unterteilen. Welche vier?", "wrongAnswers": ["I/O", "Swap", "Virtual", "Kernel"], "correctAnswers": ["Heap", "Code", "Data", "Stack"]}

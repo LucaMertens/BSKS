@@ -1,1 +1,0 @@
-{"question": "Was versteht man unter Dual Mode Operation?", "wrongAnswers": ["Multitasking mittels Prozessen und Threads", "Adressberechnung mit Base- und Bounds-Register", "Speicherlayout mit Heap und Stack"], "correctAnswers": ["Rechtemanagement \u00fcber Kernel- und User-Modus"]}

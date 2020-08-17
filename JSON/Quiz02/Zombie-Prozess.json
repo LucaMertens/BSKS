@@ -1,1 +1,0 @@
-{"question": "Zombie-Prozesse...", "wrongAnswers": ["... haben keinen Eintrag in der Prozesstabelle und sind so f\u00fcr Elternprozesse unsichtbar.", "... k\u00f6nnen durch kill nicht terminiert werden."], "correctAnswers": ["... k\u00f6nnen nicht in den Zustand 'Running' wechseln.", "... verbrauchen weiterhin Systemressourcen."]}

@@ -1,1 +1,0 @@
-{"question": "Welche Aussagen sind in C wahr?", "wrongAnswers": ["Der sizeof()-Operator ist nicht auf Arrays anwendbar.", "Die Gr\u00f6\u00dfe von \"short int\" und \"long int\" sind plattformunabh\u00e4ngig."], "correctAnswers": ["Deklariert man Variablen au\u00dferhalb von Funktionen, so sind sie global verf\u00fcgbar.", "Ein float belegt 4 Byte, ein double 8 Byte."]}

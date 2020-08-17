@@ -1,13 +1,15 @@
 # BSKS
 
 ## Allgemeines Schema für Quiz-Fragen:
+
 - Frage und Antworten sind durch zwei Zeilen abgeteilt (sonst maximal eine Zeile frei)
 - "[X] " vor korrekten Antworten, "[ ] " vor falschen
 
 ## Beispiel:
+
 ```
 Hi, ich bin eine Quizfrage.
-Ouh, ich hab' sogar zwei Zeilen. 
+Ouh, ich hab' sogar zwei Zeilen.
 
 Nein, drei!
 
@@ -15,3 +17,9 @@ Nein, drei!
 [X] Diese Antwort ist richtig.
 [ ] Diese Antwort ist falsch.
 [X] Diese Antwort ist nicht nicht nicht nicht nicht nicht nicht nicht nicht falsch.
+```
+
+## Anki
+
+Die Quizfragen gibt's auch als Karteikarten für das Programm [Anki](https://apps.ankiweb.net/).
+Mit diesem [Plugin](https://ankiweb.net/shared/info/1788670778) kann der Ordner `Quiz/anki/import_this_folder` importiert werden (unter `File - CrowdAnki: Import from Disk`). Bei mir funktionieren die Karten allerdings

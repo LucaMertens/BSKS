@@ -1,1 +1,0 @@
-{"question": "Interrupts...", "wrongAnswers": ["... terminieren den laufenden Prozess.\n\t", "... werden immer aktiv vom zu unterbrechendem Prozess herbeigef\u00fchrt."], "correctAnswers": ["... sind asynchron.", "... f\u00fchren zu der Ausf\u00fchrung einer entsprechenden Handler-Routine."]}
