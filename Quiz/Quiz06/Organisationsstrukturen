@@ -1,0 +1,6 @@
+Markieren Sie die zwei richtigen Aussagen.
+
+	
+[x] Die Suche nach einem Record in einem Sequential File kann durch Hinzufügen eines Index signifikant beschleunigt werden.
+[ ] Unstrukturierte Daten werden üblicherweise als Hashed File abgelegt.
+[x] In einem Pile kann ein bestimmtes Record nur durch erschöpfende Suche (exhaustive search) gefunden werden.
