@@ -1,0 +1,8 @@
+Markieren Sie in den aufgeführten Antworten diejenigen, die für jeden Thread eines Prozesses individuell sind.
+
+	
+[ ] Kindprozesse
+[x] Zustand
+[x] Befehlszähler
+[ ] Globale Variablen
+[x] Stack
