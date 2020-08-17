@@ -1,0 +1,1 @@
+{"question": "Angenommen, eine virtuelle Adresse sei 18 Bit lang und die zugeh\u00f6rige Seitentabelle (Page table) erlaube 64 Eintr\u00e4ge. Was ist dann die Seitengr\u00f6\u00dfe (Page size)?", "wrongAnswers": ["1 KiB", "8 KiB", "2 KiB"], "correctAnswers": ["4 KiB"]}
