@@ -26,3 +26,9 @@ Die Quizfragen gibt's auch als Karteikarten für das Programm [Anki](https://app
 Mit diesem [Plugin](https://ankiweb.net/shared/info/1788670778) kann der Ordner `Quiz/anki/import_this_folder` importiert werden (unter `File - CrowdAnki: Import from Disk`).
 
 Bei mir funktionieren die Karten allerdings nur in der App (AnkiDroid), auf dem PC werden die Antworten nicht angezeigt.
+
+## Discord Discussion
+
+Es gibt jezt einen Discord Channel für Diskussionen.
+
+Siehe hier: [https://discord.gg/4XNrMpr](https://discord.gg/4XNrMpr)
