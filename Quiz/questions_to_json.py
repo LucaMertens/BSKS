@@ -5,7 +5,7 @@ import glob
 from pathlib import Path
 
 
-def dict_to_json(question_dict, dest_path):
+def write_dict_to_json(question_dict, dest_path):
     file = open(dest_path, "w+", encoding="utf-8")
     json.dump(question_dict, file)
     file.close()
@@ -16,7 +16,7 @@ def question_to_json(origin_path, dest_path):
         origin_string = open(origin_path, "r", encoding="utf-8").read()
         question_dict = extract_question(origin_string, origin_path)
         os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-        dict_to_json(question_dict, dest_path)
+        write_dict_to_json(question_dict, dest_path)
     except OSError as err:
         print(err)
     except SyntaxError as err:
