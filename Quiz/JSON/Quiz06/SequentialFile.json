@@ -1,0 +1,1 @@
+{"question": "Welche Eigenschaften hat die Organisationsstruktur Sequential File? Markieren sie zwei Antworten.", "wrongAnswers": ["Variable Menge an Feldern (fields)"], "correctAnswers": ["Eindeutige Identifizierung eines Records durch Schl\u00fcsselfeld (key field)", "Records fester L\u00e4nge"]}

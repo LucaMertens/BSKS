@@ -1,0 +1,1 @@
+{"question": "Ein Prozess kann sich in den Zust\u00e4nden rechnend, rechenbereit und blockiert befinden. Welche der \u00dcberg\u00e4nge sind im normalen Betrieb vorgesehen.", "wrongAnswers": ["blockiert \u2192 rechnend", "rechenbereit \u2192 blockiert"], "correctAnswers": ["rechnend \u2192 rechenbereit", "rechnend \u2192 blockiert"]}

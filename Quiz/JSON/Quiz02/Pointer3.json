@@ -1,0 +1,1 @@
+{"question": "Was gibt folgendes Programm auf der Konsole aus?\n\n    #include <stdio.h>\n    int main(){\n    int value1 = 8, value2 = 6;\n    int* valuePtr = &value1;\n    *valuePtr += 4;\n    value2 = *valuePtr;\n    value1 /= 2;\n    printf(\"%d, %d\\n\", value1, value2);\n    return 0;\n    }", "wrongAnswers": ["6, 4", "12, 12", "4, 6"], "correctAnswers": ["6, 12"]}

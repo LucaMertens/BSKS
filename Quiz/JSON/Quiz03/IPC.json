@@ -1,0 +1,1 @@
+{"question": "Ein Prozess soll so schnell wie m\u00f6glich auf ein Event reagieren. \u00dcber welches Kommunikationsmodell soll er informiert werden?", "wrongAnswers": ["Message Passing", "Shared Memory"], "correctAnswers": ["Signals"]}

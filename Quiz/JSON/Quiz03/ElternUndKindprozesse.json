@@ -1,0 +1,1 @@
+{"question": "Welche Aussagen sind im Normalfall f\u00fcr POSIX-Betriebssysteme korrekt?", "wrongAnswers": ["\u00c4ndert ein Elternprozess ein Speicherwort in seinem Adressraum, so ist dies auch f\u00fcr Kindprozesse sichtbar.", "Eltern- und Kindprozesse teilen sich einen Adressraum."], "correctAnswers": ["Der Kindprozess kennt die Prozess-ID des Elternprozesses."]}

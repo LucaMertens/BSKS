@@ -1,0 +1,1 @@
+{"question": "Markieren Sie zwei richtige Aussagen bezuglich DNS.", "wrongAnswers": ["Weltweit gibt es 19 Root-Nameserver (root name servers).", "Die Hauptaufgabe des DNS ist die Namensaufl\u00f6sung von IP-Adresse zu Domain."], "correctAnswers": ["Der Standard-Port f\u00fcr DNS ist 53.", "Der Typ A einer Resource Record enth\u00e4lt als Wert eine IP-Adresse."]}

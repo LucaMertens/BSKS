@@ -1,0 +1,1 @@
+{"question": "\nWelches der genannten Scheduling-Verfahren ist pr\u00e4emptiv?", "wrongAnswers": ["Shortest-Job-First (SJF)", "First Come, First Served (FCFS)"], "correctAnswers": ["Shortest-Remaining-Time-First (SRTF)"]}

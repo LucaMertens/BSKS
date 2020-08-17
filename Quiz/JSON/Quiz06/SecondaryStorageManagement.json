@@ -1,0 +1,1 @@
+{"question": "Was ist keine Aufgabe des Secondary Storage Managements?", "wrongAnswers": ["Allozierung von Bl\u00f6cken", "Identifikation defekter Bl\u00f6cke", "Defragmentierung (Compaction)"], "correctAnswers": ["Anpassung der Blockgr\u00f6\u00dfe in Abh\u00e4ngigkeit von Dateigr\u00f6\u00dfen"]}
