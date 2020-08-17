@@ -1,0 +1,8 @@
+Welche Kommentare sind in C korrekt?
+
+	
+[ ] */ Kommentar /*
+[x] /* Kommentar */
+[ ] { Kommentar }
+[x] // Kommentar
+
