@@ -1,0 +1,8 @@
+Wenn ein Prozess über mehrere Threads verfügt, werden einige Speicherbereiche nicht von allen Threads geteilt. 
+Welcher von den genannten Bereichen wird für jeden Thread individuell angelegt?
+
+	
+[x] Stack	
+[ ] Heap
+[ ] Data
+[ ] Code
