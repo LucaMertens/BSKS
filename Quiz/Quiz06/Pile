@@ -1,0 +1,7 @@
+Welche Eigenschaften hat die Organisationsstruktur Pile? Markieren sie zwei Antworten.
+
+	
+[x] Chronologisch sortiert
+[x] Variable Menge an Feldern (fields)
+[ ] Records fester Länge
+[ ] Eindeutige Identifizierung eines Records durch Schlüsselfeld (key field)
