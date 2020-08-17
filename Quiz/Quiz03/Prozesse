@@ -1,0 +1,6 @@
+Welche Aussagen sind für POSIX-Betriebssysteme korrekt?
+
+	
+[x] Kindprozesse können beliebig viele Kindprozesse erzeugen.
+[x] Ein Prozess kann mittels Funktionen der exec-Familie sein Programm wechseln, ohne dass sich die Prozess-ID ändert.
+[ ] Beendet sich ein Elternprozess, so werden alle zugehörigen Kindprozesse terminiert.
