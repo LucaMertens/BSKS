@@ -12,15 +12,15 @@ def extract_question(input, filename):
 
     if (not question):
         raise SyntaxError("No question found in file: " + filename)
-    if (re.search(wrong_answer_pattern, input) is None):
+    if (re.search(wrong_answer_pattern, input, re.IGNORECASE) is None):
         raise SyntaxError(
             "Found a question, but no wrong answers for: " + filename)
-    if (re.search(correct_answer_pattern, input) is None):
+    if (re.search(correct_answer_pattern, input, re.IGNORECASE) is None):
         raise SyntaxError(
             "Found a question, but no correct answers for: " + filename)
 
-    wrong_answers = re.finditer(wrong_answer_pattern, input)
-    correct_answers = re.finditer(correct_answer_pattern, input)
+    wrong_answers = re.finditer(wrong_answer_pattern, input, re.IGNORECASE)
+    correct_answers = re.finditer(correct_answer_pattern, input, re.IGNORECASE)
 
     # Save the different parts in the dict.
     question_dict["question"] = question.group()
