@@ -1,7 +1,0 @@
-Angenommen, eine virtuelle Adresse sei 18 Bit lang und die zugehörige Seitentabelle (Page table)
-erlaube 64 Einträge. Was ist dann die Seitengröße (Page size)?
-	
-[ ] 8 KiB	
-[x] 4 KiB
-[ ] 1 KiB
-[ ] 2 KiB
