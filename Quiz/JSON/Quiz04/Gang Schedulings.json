@@ -1,0 +1,1 @@
+{"question": "Welche Vorteile hat Gang Scheduling gegen\u00fcber dem individuellem Scheduling zusammengeh\u00f6riger Threads?.", "wrongAnswers": ["Einfacheres Load Balancing"], "correctAnswers": ["Geringerer Scheduling-Aufwand", "Geringere Anzahl an Context Switches"]}

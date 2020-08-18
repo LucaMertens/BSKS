@@ -1,0 +1,1 @@
+{"question": "Markieren Sie in den aufgef\u00fchrten Antworten diejenigen, die f\u00fcr jeden Thread eines Prozesses individuell sind.", "wrongAnswers": ["Kindprozesse", "Globale Variablen"], "correctAnswers": ["Zustand", "Befehlsz\u00e4hler", "Stack"]}

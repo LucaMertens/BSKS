@@ -1,0 +1,1 @@
+{"question": "Welche Ausgabe erzeugt folgendes Programm?\n\n#include <stdio.h>\n\n#define MAX 1000\n\nint main()\n{\n     int MAX = 100;\n     printf(\"%d\", MAX);\n     return 0;\n}", "wrongAnswers": ["100", "1000"], "correctAnswers": ["Compiler-Fehler"]}
