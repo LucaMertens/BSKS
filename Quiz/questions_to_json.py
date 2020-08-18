@@ -3,6 +3,7 @@ import json
 import os
 import glob
 from pathlib import Path
+import shutil
 
 
 def write_dict_to_json(question_dict, dest_path):
@@ -26,6 +27,7 @@ def question_to_json(origin_path, dest_path):
 
 
 def questions_to_json(origin_root, dest_root):
+    shutil.rmtree(dest_root)
     # Ignore files starting with a !.
     for filename in glob.iglob(origin_root + '**/**/[!!]*.txt', recursive=True):
         relative_path = os.path.relpath(os.path.dirname(filename), origin_root)

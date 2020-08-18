@@ -2,6 +2,7 @@ import json
 import os
 import glob
 from pathlib import Path
+import uuid
 
 
 def to_html(string):
@@ -11,11 +12,8 @@ def to_html(string):
 def get_note_dict(question_dict, title, model_uuid):
     result = {
         "__type__": "Note",
-        "data": "",
         "fields":  [""] * 11,
-        "flags": 0,
         "guid": "",
-        "newlyAdded": True,
         "note_model_uuid": model_uuid,
         "tags": ["BSKS_QUIZ", "automatic"]
     }
@@ -40,7 +38,8 @@ def get_note_dict(question_dict, title, model_uuid):
 
     result["fields"][8] = correct_answers_indicator
 
-    result["guid"] = hash("".join(result["fields"]))
+    result["guid"] = str(uuid.uuid3(
+        uuid.NAMESPACE_X500, "".join(result["fields"])))
 
     return result
 
@@ -60,13 +59,16 @@ def write_deck(deck, anki_path):
 def convert_and_write_all(anki_path, json_path):
     base = get_default_deck(anki_path)
     model_uuid = base["note_models"][0]["crowdanki_uuid"]
+    note_count = 0
     for filename in glob.iglob(json_path + '**/**/*.json', recursive=True):
+        note_count += 1
         with open(filename, "r") as f:
             stem = Path(filename).stem
             question_dict = json.load(f)
             note_dict = get_note_dict(question_dict, stem, model_uuid)
             base["notes"].append(note_dict)
     write_deck(base, anki_path)
+    print(f"Wrote {note_count} notes to the deck.")
 
 
 json_path = os.path.join(os.getcwd(), "Quiz", "JSON")
