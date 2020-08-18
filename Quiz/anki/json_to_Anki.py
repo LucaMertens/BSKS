@@ -19,7 +19,7 @@ def get_note_dict(question_dict, title, model_uuid):
         "note_model_uuid": model_uuid,
         "tags": ["BSKS_QUIZ", "automatic"]
     }
-    result["fields"][0] = title
+    result["fields"][0] = to_html(title)
     # The question
     result["fields"][1] = to_html(question_dict["question"])
     # The type of the card (1 means multiple choice)
@@ -29,13 +29,11 @@ def get_note_dict(question_dict, title, model_uuid):
     answer_index = 3
 
     for answer in question_dict["correctAnswers"]:
-        answer.replace("\n", "<br>")
         result["fields"][answer_index] = to_html(answer)
         correct_answers_indicator += "1 "
         answer_index += 1
 
     for answer in question_dict["wrongAnswers"]:
-        answer.replace("\n", "<br>")
         result["fields"][answer_index] = to_html(answer)
         correct_answers_indicator += "0 "
         answer_index += 1
