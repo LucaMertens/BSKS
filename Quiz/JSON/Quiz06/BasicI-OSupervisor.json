@@ -1,1 +1,0 @@
-{"question": "Welche Aufgabe \u00fcbernimmt der Basic I/O Supervisor?", "wrongAnswers": ["Verwaltung von Basisinformationen und Metadaten", "Reduzierung unn\u00f6tiger Schreibvorg\u00e4nge durch Zwischenpufferung im Hauptspeicher"], "correctAnswers": ["Planung der Reihenfolge (Scheduling) von Schreibvorg\u00e4ngen auf Festplatte"]}

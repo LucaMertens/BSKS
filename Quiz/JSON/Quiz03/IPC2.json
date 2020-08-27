@@ -1,1 +1,0 @@
-{"question": "Ein Prozess sendet in unregelm\u00e4\u00dfigen Abst\u00e4nden Anfragen an einen weiteren Prozess, die in gleicher Reihenfolge beantwortet werden sollen. Welches Kommunikationsmodell ist f\u00fcr diesen Anwendungsfall besonders geeignet?", "wrongAnswers": ["Shared Memory", "Signals"], "correctAnswers": ["Message Passing"]}

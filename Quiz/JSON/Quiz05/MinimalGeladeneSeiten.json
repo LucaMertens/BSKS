@@ -1,1 +1,0 @@
-{"question": "Welche Seiten eines laufenden Prozesses sind mindestens geladen?", "wrongAnswers": ["Es sind mindestens die Seiten geladen, die den Programmcode enthalten.", "Der Adressraum eines laufenden Prozesses ist vollst\u00e4ndig im Hauptspeicher geladen."], "correctAnswers": ["Nur die Seite, die die aktuelle Instruktion enth\u00e4lt, muss geladen sein."]}

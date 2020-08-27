@@ -1,1 +1,0 @@
-{"question": "Was gibt folgendes Programm auf der Kommandozeile aus?\n\n    #include <stdio.h>\n\n    void fun(int b) {\n    b = 2;\n    }\n\n    int main() {\n    int a = 1;\n    fun(a);\n    printf(\"%d\", a);\n    return 0;\n    }", "wrongAnswers": ["Compiler-Fehler", "0", "2"], "correctAnswers": ["1"]}

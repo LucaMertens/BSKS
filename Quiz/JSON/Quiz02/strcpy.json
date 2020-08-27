@@ -1,1 +1,0 @@
-{"question": " \n#include <stdio.h>\n#include <string.h>\n\nint main(){\n  char message[8] = \"Hello\";\n  strcpy(message, \"Hey\");\n  printf(\"%s\\n\", message);\n  return 0;\n}", "wrongAnswers": ["HelloHey", "Hello", "Heylo"], "correctAnswers": ["Hey"]}

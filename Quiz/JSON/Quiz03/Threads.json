@@ -1,1 +1,0 @@
-{"question": "Welche Aussagen sind f\u00fcr POSIX-Betriebssysteme korrekt?", "wrongAnswers": ["Mit dem Befehl fork() l\u00e4sst sich ein neuer Thread mit gleichem Adressraum erzeugen.", "Ein Thread kann seinen Prozess wechseln."], "correctAnswers": ["Mehrere Threads eines Prozesses nutzen denselben Adressraum."]}

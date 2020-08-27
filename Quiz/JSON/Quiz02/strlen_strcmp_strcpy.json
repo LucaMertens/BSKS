@@ -1,1 +1,0 @@
-{"question": "Folgende drei C-Funktionen seien gegeben:\n\nint* f1() {\n  int x = 1;\n  return (&x);\n}\n\nint* f2() {\n  int* px = (int*) malloc(sizeof(int));\n  *px = 1;\n  return px;\n}\n\nint* f3() {\n  int *px;\n  *px = 1;\n  return px;\n}", "wrongAnswers": ["0", "5", "3"], "correctAnswers": ["4"]}

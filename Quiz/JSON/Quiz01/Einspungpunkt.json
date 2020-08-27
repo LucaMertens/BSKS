@@ -1,1 +1,0 @@
-{"question": "Welche Funktion muss in jedem ausf\u00fchrbaren C-Programm vorkommen?", "wrongAnswers": ["system()", "program()", "start()"], "correctAnswers": ["main()"]}

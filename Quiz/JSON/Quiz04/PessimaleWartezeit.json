@@ -1,1 +1,0 @@
-{"question": " \nBei welchen Schedulingstrategien ist die pessimale Wartezeit einzelner Jobs nicht nach oben begrenzt, so dass Starvation auftreten kann?", "wrongAnswers": ["Round Robin", "First Come First Serve"], "correctAnswers": ["Priorit\u00e4tsscheduling", "Shortest Job First"]}

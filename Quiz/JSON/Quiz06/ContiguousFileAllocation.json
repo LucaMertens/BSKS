@@ -1,1 +1,0 @@
-{"question": "Was ist ein Nachteil der Contiguous File Allocation?", "wrongAnswers": ["H\u00f6here interne Fragmentierung als bei der Distributed File Allocation", "H\u00f6here Zugriffszeiten als bei der Distributed File Allocation"], "correctAnswers": ["H\u00f6here externe Fragmentierung als bei der Distributed File Allocation"]}

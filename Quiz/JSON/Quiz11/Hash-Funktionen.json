@@ -1,1 +1,0 @@
-{"question": "Welche drei Aussagen gelten f\u00fcr Hash Funktionen?", "wrongAnswers": ["Hash Funktionen sind injektiv.", "Zwei unterschiedliche Eingaben in SHA-1 f\u00fchren zu unterschiedlichen Hashwerten."], "correctAnswers": ["Die Funktion f(x)=x%13 stellt eine einfache Hashfunktion dar. (\"% 13\" bedeutet \"modulo 13\")", "MD5 und SHA-1 sind gel\u00e4ufige Hashfunktionen."]}

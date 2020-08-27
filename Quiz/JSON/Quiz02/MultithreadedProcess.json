@@ -1,1 +1,0 @@
-{"question": "Wenn ein Prozess \u00fcber mehrere Threads verf\u00fcgt, werden einige Speicherbereiche nicht von allen Threads geteilt. \nWelcher von den genannten Bereichen wird f\u00fcr jeden Thread individuell angelegt?", "wrongAnswers": ["Heap", "Data", "Code"], "correctAnswers": ["Stack"]}

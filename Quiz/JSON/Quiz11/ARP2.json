@@ -1,1 +1,0 @@
-{"question": "Welche zwei Aussagen gelten f\u00fcr ARP?", "wrongAnswers": ["ARP-Requests werden \u00fcber UDP versendet.", "Eine ARP-Request enth\u00e4lt die MAC-Adresse des gesuchten Netzwerkknotens."], "correctAnswers": ["Eine ARP-Request wird gebroadcastet.", "Eine ARP-Request enth\u00e4lt die IP-Adresse des anfragenden Netzwerkknotens."]}

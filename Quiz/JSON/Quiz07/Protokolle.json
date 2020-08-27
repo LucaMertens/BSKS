@@ -1,1 +1,0 @@
-{"question": "Welche zwei Aussagen sind korrekt?", "wrongAnswers": ["IP stellt sicher, dass Pakete in der richtigen Reihenfolge ankommen.", "IP stellt sicher, dass keine Pakete verloren gehen."], "correctAnswers": ["Das ISO/OSI-Referenzmodell besteht aus sieben Schichten.", "HTTP, SSH und SMTP sind als Protokolle dem Application Layer zuzuordnen."]}

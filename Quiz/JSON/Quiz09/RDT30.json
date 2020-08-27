@@ -1,1 +1,0 @@
-{"question": "Markieren sie die zwei richtigen Aussagen: rdt3.0...", "wrongAnswers": ["... kann einzelne Bitfehler durch Analyse der Checksumme beheben.", "... nutzt ACKs / NAKs, um Pakete zu best\u00e4tigen / abzulehnen."], "correctAnswers": ["... nummeriert Pakete (Sequence numbers), um Duplikate zu erkennen.", "... verwendet Checksummen f\u00fcr die Fehlererkennung."]}

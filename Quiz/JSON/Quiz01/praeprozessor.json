@@ -1,1 +1,0 @@
-{"question": " \nWelche Konsolenausgabe erzeugt das folgende Programm?\n\n#include <stdio.h>\n\n#define a 1\n\nint main()\n{\n    printf(\"%d \", a);\n#ifdef b\n    printf(\"%d \", a);\n#endif\n    return 0;\n}", "wrongAnswers": ["1 1", "Compiler-Fehler", "1 0"], "correctAnswers": ["1"]}

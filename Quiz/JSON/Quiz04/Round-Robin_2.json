@@ -1,1 +1,0 @@
-{"question": "Wenn beim Round-Robin Scheduling die Quantum Time so vergr\u00f6\u00dfert wird, dass keine pr\u00e4emtpive Unterbrechung auftritt, ist die Strategie \u00e4quivalent zu:", "wrongAnswers": ["Shortest-Job-First (SJF)", "Shortest-Remaining-Job-First (SRJF)"], "correctAnswers": ["First-Come, First-Served (FCFS)"]}

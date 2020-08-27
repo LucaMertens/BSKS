@@ -1,1 +1,0 @@
-{"question": "Welche Kommentare sind in C korrekt?", "wrongAnswers": ["*/ Kommentar /*", "{ Kommentar }"], "correctAnswers": ["/* Kommentar */", "// Kommentar"]}
