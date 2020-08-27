@@ -2,13 +2,13 @@ Was gibt folgendes Programm auf der Konsole aus?
 
     #include <stdio.h>
     int main(){
-    int value1 = 8, value2 = 6;
-    int* valuePtr = &value1;
-    *valuePtr += 4;
-    value2 = *valuePtr;
-    value1 /= 2;
-    printf("%d, %d\n", value1, value2);
-    return 0;
+        int value1 = 8, value2 = 6;
+        int* valuePtr = &value1;
+        *valuePtr += 4;
+        value2 = *valuePtr;
+        value1 /= 2;
+        printf("%d, %d\n", value1, value2);
+        return 0;
     }
 
 

@@ -3,13 +3,13 @@ Was gibt das zweite printf auf der Konsole aus?
     #include<stdio.h>
 
     int main() {
-    char *ptr = "Test";
+        char *ptr = "Test";
 
-    // Ausgabe auf der Konsole: "T"
-    printf("%c", *ptr);
+        // Ausgabe auf der Konsole: "T"
+        printf("%c", *ptr);
 
-    // Ausgabe auf der Konsole?
-    printf("%c", *&*ptr);
+        // Ausgabe auf der Konsole?
+        printf("%c", *&*ptr);
     }
 
 
