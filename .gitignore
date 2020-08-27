@@ -3,3 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+JSON/
+
+**/anki/import_this_folder/deck.json

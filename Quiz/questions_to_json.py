@@ -27,7 +27,7 @@ def question_to_json(origin_path, dest_path):
 
 
 def questions_to_json(origin_root, dest_root):
-    shutil.rmtree(dest_root)
+    shutil.rmtree(dest_root, ignore_errors=True)
     # Ignore files starting with a !.
     for filename in glob.iglob(origin_root + '**/**/[!!]*.txt', recursive=True):
         relative_path = os.path.relpath(os.path.dirname(filename), origin_root)

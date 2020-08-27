@@ -33,5 +33,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
+          git add --force **/JSON/**/**
+          git add --force **/import_this_folder/deck.json
           git commit -m "[Automatic] Generated JSON-Files and Flashcards"
           git push
