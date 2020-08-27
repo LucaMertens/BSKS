@@ -6,16 +6,16 @@ import uuid
 
 
 def to_html(string):
-    return string.replace("<", '&lt;').replace(">", '&gt;').replace("\n", "<br>")
+    return string.replace("<", '&lt;').replace(">", '&gt;').replace("\n", "<br>").replace("    ", "&emsp;").replace("&#09;", "&emsp;")
 
 
-def get_note_dict(question_dict, title, model_uuid):
+def get_note_dict(question_dict, title, model_uuid, tags=[]):
     result = {
         "__type__": "Note",
         "fields":  [""] * 11,
         "guid": "",
         "note_model_uuid": model_uuid,
-        "tags": ["BSKS_QUIZ", "automatic"]
+        "tags": ["BSKS_QUIZ"] + tags
     }
     result["fields"][0] = to_html(title)
     # The question
@@ -65,7 +65,9 @@ def convert_and_write_all(anki_path, json_path):
         with open(filename, "r") as f:
             stem = Path(filename).stem
             question_dict = json.load(f)
-            note_dict = get_note_dict(question_dict, stem, model_uuid)
+            folder_name = os.path.basename(os.path.dirname(filename))
+            note_dict = get_note_dict(
+                question_dict, stem, model_uuid, [folder_name])
             base["notes"].append(note_dict)
     write_deck(base, anki_path)
     print(f"Wrote {note_count} notes to the deck.")
